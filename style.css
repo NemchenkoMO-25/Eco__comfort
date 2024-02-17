@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Merriweather:wght@300&family=MuseoModerno:wght@600&family=Righteous&family=Roboto:wght@500&display=swap');
+body{
+    background: white;
+    color: black;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.header_inner{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
+}
+
+.header__link{
+    font-size: 20px;
+    padding-left: 20px; 
+    text-decoration: none;
+    color: black;
+    align-items: stretch;
+    font-family: Merriweather;
+}
+
+.header__link-img{
+    padding-left: 10px;
+
+    justify-content: flex-end;
+}
+.logo{
+    max-width: 155px;
+
+}
+
+.special_offer{
+    height: 642.68px;
+    background-image: url(img/предложение_до_30_февраля.png);
+    background-repeat: no-repeat;
+}
+
+
+.img_offer{
+    padding-left: 275px;
+    padding-top: 130px;
+    /* margin-bottom: 100px;*/
+
+}
+.heading{
+    font-size: 80px;
+    font-family: expletus sans;
+}
+
+.february{
+    font-size: 24px;
+    font-family: expletus sans;
+}
+
+.catalog{
+    background-color:black;
+    color: white;
+    width: 268px;
+    height: 55px;
+    text-align: center;
+
+}
+
+.expert{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-right: 26px;
+
+}
+
+.expert_img{
+    width: 615px;
+    height: 305px;
+}
+
+.expert_eco-comfort{
+    margin-left: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Expletus Sans;
+}
+
+.footer{
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+img{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 378px){
+    .header_inner{
+        width: 378px;
+    }
+    .header__link {
+        font-size: 20px;
+    }
+    .img_offer {
+        width: 378px;
+        height: 192px;
+    }
+
+}

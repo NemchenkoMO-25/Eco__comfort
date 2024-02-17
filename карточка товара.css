@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Merriweather:wght@300&family=MuseoModerno:wght@600&family=Righteous&family=Roboto:wght@500&display=swap');
+body{
+    background: white;
+    color: black;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.header_inner{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
+}
+
+.header__link{
+    font-size: 20px;
+    padding-left: 20px; 
+    text-decoration: none;
+    color: black;
+    align-items: stretch;
+    font-family: Merriweather;
+}
+
+.header__link-img{
+    padding-left: 10px;
+
+    justify-content: flex-end;
+}
+.logo{
+    max-width: 155px;
+
+}
+
+.product_card{
+    display: flex;
+
+    text-align: right;
+
+}
+
+.main-text_product{
+    display: flex;
+    flex-direction: column;
+}
+
+.index-about{
+    background-color: rgb(255, 251, 251);
+}
+
+.index-about__main_content{
+    display: flex;
+    margin-top: 10px;
+
+}
+
+
+.index-about__text{
+    padding-top: 50px;
+    font-size: 19px;
+}
+
+.index-products__range{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.index-products__goods{
+    text-align: center;
+    width: 450px;
+    margin-top: 10px;
+}
+
+.index-products__img{
+    border: #d6c9c0 solid 4px;
+    border-radius: 300px;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.footer{
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.accordion{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+
+}
+
+.order{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.catalog{
+    background-color:black;
+    color: white;
+    width: 268px;
+    height: 55px;
+    text-align: center;
+}
+
+.accordion-button{
+    font-family: Merriweather;
+    font-weight: bold;
+}
+
+.accordion-body{
+    font-family: Expletus Sans;
+    font-size: 19px;
+}

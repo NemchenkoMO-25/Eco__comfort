@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Merriweather:wght@300&family=MuseoModerno:wght@600&family=Righteous&family=Roboto:wght@500&display=swap');
+body{
+    background: white;
+    color: black;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.header_inner{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
+}
+
+
+.header__link{
+    font-size: 20px;
+    padding-left: 20px; 
+    text-decoration: none;
+    color: black;
+    align-items: stretch;
+    font-family: Merriweather;    
+}
+
+.header__link-img{
+    padding-left: 10px;
+
+    justify-content: flex-end;
+}
+.logo{
+    max-width: 155px;
+
+}
+
+
+.footer{
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+
+.main_text{
+    font-family: Merriweather;
+    font-size: 17px;
+}
+
+.chapter{
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.chapter-main{
+    font-family: Merriweather;
+    font-weight: bold;
+
+}
+
+.main_text-list{
+    font-family: Roboto;
+    font-size: 20px;
+}

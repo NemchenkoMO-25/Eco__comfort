@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Merriweather:wght@300&family=MuseoModerno:wght@600&family=Righteous&family=Roboto:wght@500&display=swap');
+body{
+    background: white;
+    color: black;
+}
+
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.header_inner{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
+}
+
+.header__link{
+    font-size: 20px;
+    padding-left: 20px; 
+    text-decoration: none;
+    color: black;
+    align-items: stretch;
+    font-family: Merriweather;
+}
+
+.header__link-img{
+    padding-left: 10px;
+
+    justify-content: flex-end;
+}
+.logo{
+    max-width: 155px;
+
+}
+
+
+.input-group {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.care {
+    display: inline-block;
+
+}
+
+.conteiner {
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+
+.chapter{
+    font-family: Expletus Sans;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.footer{
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 24px;
+}
+
+
+.cards {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    max-width: 782px;
+}
+
+.card--1 .card__img,
+.card--1 .card__img--hover {
+    background-image: url('img/лосьон_для_тела2.png');
+}
+
+.card--2 .card__img,
+.card--2 .card__img--hover {
+    background-image: url('img/гидрофильное_масло_с_центеллой.png');
+}
+
+.card--3 .card__img--hover-3 {
+    max-width: 263px;
+    background-image: url('img/skrab.png');
+}
+
+.card--4 .card__img--hover-4 {
+    max-width: 263px;
+    background-image: url('img/Remove-bg.png');
+}
+
+.card--5 .card__img--hover-5 {
+    max-width: 263px;
+    background-image: url('img/Remove-bg_iv-rohe.png');
+}
+
+.card--6 .card__img--hover-6 {
+    max-width: 263px;
+    background-image: url('img/ton.png');
+}
+
+.card__clock {
+    width: 15px;
+    vertical-align: middle;
+    fill: #A2C18A;
+}
+
+.card__time {
+    font-size: 12px;
+    color: #A2C18A;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.card__clock-info {
+    float: right;
+}
+
+.card__img {
+    visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+}
+
+.card__info-hover {
+    position: absolute;
+    padding: 16px;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+}
+
+.card__img--hover {
+    transition: 0.2s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
+
+}
+
+.card__img--hover-3 {
+    transition: 0.2s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
+}
+
+.card__img--hover-4 {
+    transition: 0.2s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
+}
+
+.card__img--hover-5 {
+    transition: 0.2s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
+}
+
+.card__img--hover-6 {
+    transition: 0.2s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
+}
+
+.card {
+    margin-right: 25px;
+    transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+    background-color: #fff;
+    width: 235px;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.10, 1.10);
+}
+
+.card__info {
+    z-index: 2;
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+}
+
+.card__product {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #787878;
+}
+
+.card__title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: Expletus Sans;
+}
+
+
+
+.card__author {
+    font-weight: 600;
+    text-decoration: none;
+    color: #A2C18A;
+}
+
+.card:hover .card__img--hover {
+    height: 100%;
+    opacity: 0.3;
+}
+
+.card:hover .card__img--hover-3 {
+    height: 100%;
+    opacity: 0.3;
+}
+
+.card:hover .card__img--hover-4 {
+    height: 100%;
+    opacity: 0.3;
+}
+
+.card:hover .card__img--hover-5 {
+    height: 100%;
+    opacity: 0.3;
+}
+
+.card:hover .card__img--hover-6 {
+    height: 100%;
+    opacity: 0.3;
+}
+
+
+.card:hover .card__info {
+    background-color: transparent;
+    position: relative;
+}
+
+.card:hover .card__info-hover {
+    opacity: 1;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.cards-care{
+    display: flex;
+    justify-content: center;
+}
+
+.cards_decorative{
+    display: flex;
+    justify-content: center;
+}
+
+.catalog{
+    background-color:black;
+    color: white;
+    width: 268px;
+    height: 55px;
+    text-align: center;
+
+}
+
+.order{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+ 

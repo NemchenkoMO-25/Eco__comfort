@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Merriweather:wght@300&family=MuseoModerno:wght@600&family=Righteous&family=Roboto:wght@500&display=swap');
+body{
+    background: white;
+    color: black;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.header_inner{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
+}
+
+.header__link{
+    font-size: 20px;
+    padding-left: 20px; 
+    text-decoration: none;
+    color: black;
+    align-items: stretch;
+    font-family: Merriweather;
+}
+
+.header__link-img{
+    padding-left: 10px;
+
+    justify-content: flex-end;
+}
+.logo{
+    max-width: 155px;
+
+}
+
+.img-cart{
+    width: 190px;
+}
+
+.img-cart-2{
+    width: 145px;
+}
+
+.main_inner{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Expletus Sans;
+
+}
+
+
+.katalog_href{
+    align-items: stretch;
+
+}
+
+.title{
+    font-family: Expletus Sans;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.catalog{
+    background-color:black;
+    color: white;
+    width: 268px;
+    height: 55px;
+    text-align: center;
+
+}
+
+.order{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+ 
+.footer{
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.55);
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформление заказа</title>
+    <link rel="stylesheet" href="оформиль заказ.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Merriweather:wght@300&family=MuseoModerno:wght@600&family=Righteous&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<header>
+    <div class="container-1">
+        <div class="header_inner">
+            <img src="img/лого 2.png" alt="" class="logo" />
+            <nav class="navigation">
+                <a href="index.html" class="header__link">Главная</a>
+                <a href="delivery and payment.html" class="header__link">Доставка и оплата</a>
+                <a href="katalog.html" class="header__link">Каталог</a>
+            </nav>
+            <nav>
+
+                <a href="корзина.html" class="header__link-img"><img src="img/Component 3.png" alt="" /></a>
+            </nav>
+        </div>
+    </div>
+</header>
+<body>
+<main>
+    <section class="form-filling">
+        <div class="container">
+            <h1>Оформление заказа</h1>
+            <p>Заполните поля</p>
+            <div class="data">
+                <div class="indent">
+                    <input type="text" style="border-radius: 7px;" placeholder="E-mail" class="inp">
+                    <input id="phone" style="border-radius: 7px;" oninput="onlynumbers(this)" type="text" placeholder="+7(___)___-__-__"
+                        class="inp"><br>
+                    <input type="text" style="border-radius: 7px;" placeholder="Ф.И.О." class="inp"> <input type="text" style="border-radius: 7px;" placeholder="Адрес"
+                        class="inp">
+                </div>
+
+
+                <hr>
+                <div class="alignment">
+                    <label>
+                        <input type="radio" name="radio-example">
+                        <span class="custom-radio"></span>
+                        Оплата картой при получении
+                    </label><br>
+                    <label>
+                        <input type="radio" name="radio-example">
+                        <span class="custom-radio"></span>
+                        Оплата банковской картой
+                    </label><br>
+                    <select class="indent" name="pets" id="pet-select">
+                        <option value="payment">Mir</option>
+                        <option value="payment">Visa</option>
+                        <option value="payment">MasterCard</option>
+                    </select>
+                </div>
+
+
+
+                <button class="arrange" onclick="check()">Оформить заказ</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+      <div class="footer">
+        <p>ООО «Эко комфорт»</p>
+        <p>©Eco Comfort 2024 | Все права защищены.</p>
+
+      </div>
+    </div>
+  </footer>
+
+
+
+    <script src="оформить заказ.js"></script>
+</body>
+
+</html>

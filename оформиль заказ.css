@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Merriweather:wght@300&family=MuseoModerno:wght@600&family=Righteous&family=Roboto:wght@500&display=swap');
+body{
+    background: white;
+    color: black;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header_inner{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
+}
+
+
+.header__link{
+    font-size: 20px;
+    padding-left: 20px; 
+    text-decoration: none;
+    color: black;
+    align-items: stretch;
+    font-family: Merriweather;    
+}
+
+.header__link-img{
+    padding-left: 10px;
+
+    justify-content: flex-end;
+}
+.logo{
+    max-width: 155px;
+
+}
+
+
+.footer{
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form-filling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    --main-color: #A2C18A;
+    --second-color: #F4FFEC;
+
+
+
+
+}
+
+.container {
+    text-align: center;
+    color: var(--second-color);
+    background-color: var(--main-color);
+    height: 300px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer{
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+button,
+input {
+    color: var(--main-color);
+    background-color: var(--second-color);
+    outline: none;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+::placeholder {
+    color: var(--main-color)
+}
+
+
+input[type="radio"] {
+    display: none;
+}
+
+.custom-radio {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #F4FFEC;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+input[type="radio"]:checked+.custom-radio {
+    background-color: #F4FFEC;
+    border-color: #F4FFEC;
+}
+
+label {
+
+    font-size: 1rem;
+
+    padding-right: 100px;
+
+    outline: none;
+
+}
+
+
+select {
+
+    font-size: 15px;
+    width: 200px;
+    padding: 2px 5px;
+    color: #A2C18A;
+    border-radius: 7px;
+    border-color: #A2C18A;
+}
+
+.arrange {
+    border-radius: 7px;
+}
+
+.alignment{
+    margin-top: 4px;
+}
+
+.indent{
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.main_text{
+    font-family: MuseoModerno;
+}
+
+.footer{
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.55);
+}
